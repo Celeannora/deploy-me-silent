@@ -1,0 +1,31 @@
+# Local deployment data and machine-specific overrides
+Logs/
+Staging/
+Installers/
+CustomCatalog.json
+hosts.txt
+result.csv
+_index.csv
+*.log
+*.clixml
+
+# Installer binaries and optional third-party executables
+*.exe
+*.msi
+*.msu
+*.msp
+*.zip
+
+# Credentials and local environment settings
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
